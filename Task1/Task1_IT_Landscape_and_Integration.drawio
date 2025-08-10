@@ -1,0 +1,230 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.9" pages="2">
+  <diagram name="Карта IT-ландшафта" id="landscape1">
+    <mxGraphModel dx="2818" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cap0" value="Продажи в сети отделений" style="shape=rectangle;fillColor=#dae8fc;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="221" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1" value="Продажи через кол-центр" style="shape=rectangle;fillColor=#dae8fc;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2" value="Digital-оповещения клиентов" style="shape=rectangle;fillColor=#dae8fc;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3" value="Обслуживание депозитных процессов" style="shape=rectangle;fillColor=#dae8fc;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4" value="Обслуживание кредитных процессов" style="shape=rectangle;fillColor=#dae8fc;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="940" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5" value="Управление договорами" style="shape=rectangle;fillColor=#dae8fc;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="org0" value="Управление обслуживанием в сети отделений" style="shape=rectangle;fillColor=#e1d5e7;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="100" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="org1" value="Кол-центр" style="shape=rectangle;fillColor=#e1d5e7;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="160" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="org2" value="IT-отдел" style="shape=rectangle;fillColor=#e1d5e7;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="220" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="org3" value="Управление обслуживанием депозитных продуктов" style="shape=rectangle;fillColor=#e1d5e7;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="280" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="org4" value="Управление обслуживанием кредитных продуктов" style="shape=rectangle;fillColor=#e1d5e7;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="340" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="org5" value="Команда цифровой трансформации" style="shape=rectangle;fillColor=#e1d5e7;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="400" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell0_0" value="АБС (Oracle, Delphi)" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell0_1" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell0_2" value="СМС-шлюз" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell0_3" value="АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell0_4" value="АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="940" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell0_5" value="АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1118" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell1_0" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="160" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell1_1" value="Система кол-центра.&#xa;Система партнёрского кол-центра." style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="160" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell1_2" value="СМС-шлюз" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="160" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell1_3" value="Передача заявок в АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="160" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell1_4" value="Передача заявок в АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="940" y="160" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell1_5" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="160" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell2_0" value="Сайт, интернет-банк" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell2_1" value="Система кол-центра. Интеграция с &#xa;партнерским  кол-центром." style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell2_2" value="Интеграция СМС-шлюза" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell2_3" value="АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell2_4" value="АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="940" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell2_5" value="АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell3_0" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell3_1" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell3_2" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell3_3" value="АБС + Excel" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell3_4" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="940" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell3_5" value="АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell4_0" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell4_1" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell4_2" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell4_3" value="" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell4_4" value="АБС + расчёты" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="940" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell4_5" value="АБС" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell5_0" value="Развитие интернет-банка" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell5_1" value="Интеграция сайта и кол-центров" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell5_2" value="Push/SMS" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell5_3" value="Цифровизация депозитов" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell5_4" value="Цифровизация кредитов" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="940" y="400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cell5_5" value="Автоматизация документооборота" style="shape=rectangle;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="400" width="180" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Схема интеграции" id="integration1">
+    <mxGraphModel dx="2066" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="site" value="Сайт (PHP+React)" style="shape=rectangle;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ib" value="Интернет-банк (ASP.NET)" style="shape=rectangle;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="240" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" value="Система кол-центра" style="shape=rectangle;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pcc" value="Партнёрский кол-центр" style="shape=rectangle;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="240" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abs" value="АБС (Oracle, Delphi)" style="shape=rectangle;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="480" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sms" value="СМС-шлюз" style="shape=rectangle;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="720" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="telco" value="Телеком-оператор" style="shape=rectangle;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="960" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="excel" value="Excel-файлы" style="shape=rectangle;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1000" value="Просмотр информации" style="edgeStyle=orthogonalEdgeStyle;" parent="1" target="site" edge="1">
+          <mxGeometry x="0.3599" relative="1" as="geometry">
+            <mxPoint x="90.02857142857147" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1001" value="Платежи, &#xa;открытие счетов" style="edgeStyle=orthogonalEdgeStyle;" parent="1" target="ib" edge="1">
+          <mxGeometry x="0.0114" relative="1" as="geometry">
+            <mxPoint x="110" y="230" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1002" value="Звонок" style="edgeStyle=orthogonalEdgeStyle;" parent="1" target="cc" edge="1">
+          <mxGeometry x="0.3913" relative="1" as="geometry">
+            <mxPoint x="90" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1003" value="Передача заявки" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="cc" target="abs" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1004" value="Синхронизация контактных данных &#xa;и передача заявок" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="pcc" target="cc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1005" value="Уведомление" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="abs" target="sms" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1006" value="Отправка СМС" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="sms" target="telco" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1007" value="Ставки депозитов, Справочники" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="excel" target="abs" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5se3yvLXzd5vbqHxIH19-1007" value="Пользователь&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
