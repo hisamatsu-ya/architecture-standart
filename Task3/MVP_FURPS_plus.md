@@ -37,5 +37,6 @@
 ---
 
 ## Архитектурная схема (Mermaid)
+[![Open in draw.io Viewer](https://img.shields.io/badge/Open%20in-draw.io%20Viewer-orange?logo=diagramsdotnet)](https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=architecture_structured_v2.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fhisamatsu-ya%2Farchitecture-standart%2Farchitecture-standart-review%2FTask3%2Farchitecture_structured_v2.drawio)
 
 
