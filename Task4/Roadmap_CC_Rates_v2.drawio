@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.9" pages="2">
+  <diagram id="Pg1" name="Roadmap CC Rates">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane_rs" value="Rate Service" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_esb" value="ESB / Integration Layer" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="0" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_crm" value="CRM / CC" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="0" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_partner" value="Partner CC" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="0" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_sec" value="Security / Infra / Monitoring" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="0" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="task_a1" value="Exporter v1 (CSV), базовая схема" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_rs">
+          <mxGeometry x="10" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_a2" value="CC Adapter (pull), загрузка ставок" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_esb">
+          <mxGeometry x="10" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_a3" value="Приём ставок, отображение в CRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_crm">
+          <mxGeometry x="10" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_b1" value="Partner File Publisher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_esb">
+          <mxGeometry x="10" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_b2" value="Приём файла ставок" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_partner">
+          <mxGeometry x="10" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_b3" value="Ретраи, DLQ, оповещения" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_sec">
+          <mxGeometry x="10" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_c1" value="Оптимизация, кеш в CRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_crm">
+          <mxGeometry x="10" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_c2" value="Версионирование файлов, локализация" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_rs">
+          <mxGeometry x="10" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_c3" value="DR-тесты, нагрузочное тестирование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_sec">
+          <mxGeometry x="10" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_t1" value="Персональные ставки" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_rs">
+          <mxGeometry x="10" y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_t2" value="API интеграция с P-CC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_esb">
+          <mxGeometry x="10" y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task_t3" value="Единый real-time кэш ставок" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_sec">
+          <mxGeometry x="10" y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HWB0nxODYjZNQq2DiphT" name="Page-2">
+    <mxGraphModel dx="2066" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
